@@ -3,7 +3,7 @@ const loveQuotes = [
     "<h1>I love you more than words can express.</h1>",
     "<h1>Life is like a chocolate box, and you're the most delicious piece in it.🍫❤️</h1>",
     "<h1>Wish You Happy Chocolate day.</h1>",
-    "<h1>Click the Chocolate</h1>"
+    "<h4>Click the Chocolate</h4>"
   ];
   
   function showLoveQuote() {
@@ -13,7 +13,7 @@ const loveQuotes = [
     for (let i = 0; i < loveQuotes.length; i++) {
       setTimeout(() => {
         quoteContainer.innerHTML = loveQuotes[i];
-      }, (i + 1) * 5000);
+      }, (i + 1) * 3000);
     }
   }
   
