@@ -13,7 +13,7 @@ const loveQuotes = [
     for (let i = 0; i < loveQuotes.length; i++) {
       setTimeout(() => {
         quoteContainer.innerHTML = loveQuotes[i];
-      }, (i + 1) * 3000);
+      }, (i + 1) * 5000);
     }
   }
   
